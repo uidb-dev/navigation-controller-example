@@ -9,13 +9,7 @@ const App = (props) => {
 
   const [nowPage, setNowPage] = useState("");
   const [navigatorRef,setNavigatorRef] = useState(null);
-  const menuClick = (e, goToPage) => {
-    if (navigatorRef) {
-      navigatorRef.changePage(goToPage);
-      document.getElementsByClassName("active")[0].className = "";
-      e.currentTarget.className = "active";
-    }
-  }
+
   return (
     <Navigator
       onRef={ref => ( setNavigatorRef(ref))}  
