@@ -12,7 +12,7 @@ const App = (props) => {
 
   return (
     <Navigator
-      onRef={ref => ( setNavigatorRef(ref))}  
+      onRef={ref => { setNavigatorRef(ref);window.navigatorRef=ref;}}  
       myApp={this}
       onChangePage={page => {
         setNowPage(page);

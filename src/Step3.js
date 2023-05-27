@@ -5,7 +5,7 @@ function Step3(props) {
             Step3
             <button onClick={() => {
                 props.navigatorRef.changePage("step2", {
-                    timeAnimationInMS: 10000
+                    timeAnimationInMS: 4000
                 });
             }} >
                 Back
