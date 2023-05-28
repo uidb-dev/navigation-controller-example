@@ -3,7 +3,7 @@ function Step1(props) {
     return (
         <div className='step1'>
             Step1
-            <button onClick={() => { props.navigatorRef.changePage("step2"); }} >
+            <button onClick={() => { props.navigatorRef.changePage("step2") }} >
                 Next
             </button>
         </div >
