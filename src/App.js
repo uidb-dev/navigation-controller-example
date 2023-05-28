@@ -21,7 +21,7 @@ const App = (props) => {
       <Step1 key="step1" levelPage={1} navigatorRef={navigatorRef} />
       <Step2 key="step2" levelPage={2} navigatorRef={navigatorRef} />
       <Step3 key="step3" levelPage={3} navigatorRef={navigatorRef} 
-       transitionIn="animate__slideInLeft" transitionOut= "animate__slideOutLeft"
+       //transitionIn="animate__slideInLeft" transitionOut= "animate__slideOutLeft"
       />
     </Navigator>
   );
