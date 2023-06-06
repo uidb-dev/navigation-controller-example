@@ -1,1 +1,1 @@
-{"name":"navigation-controller-example","uniqueIndex":0,"childNodes":[],"parentNode":null,"issueDetails":{},"isGithubIssue":false,"nonGithubIssueDetail":{"markAsDone":false}}
+{"name":"navigation-controller-example","uniqueIndex":0,"childNodes":[{"name":"","uniqueIndex":770,"childNodes":[],"nonGithubIssueDetail":{"markAsDone":false},"isGithubIssue":false,"issueDetails":{}}],"parentNode":null,"issueDetails":{},"isGithubIssue":false,"nonGithubIssueDetail":{"markAsDone":false}}
